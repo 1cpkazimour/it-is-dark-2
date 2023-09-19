@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://chky2ebfw47kk"]
+
+[node name="TitleScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 0
