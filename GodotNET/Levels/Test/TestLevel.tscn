@@ -9,6 +9,8 @@ size = Vector2(1033.5, 40)
 [node name="TestLevel" type="Node2D"]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(-1714, 74)
+scale = Vector2(10, 1)
 
 [node name="Icon" type="Sprite2D" parent="StaticBody2D"]
 position = Vector2(579, 606)
