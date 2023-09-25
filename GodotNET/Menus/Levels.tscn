@@ -1,0 +1,77 @@
+[gd_scene load_steps=2 format=3 uid="uid://cja0wq1y6h7xv"]
+
+[ext_resource type="Texture2D" uid="uid://cu5851y8tefqc" path="res://icon.svg" id="1_v4h6b"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="GridContainer" type="GridContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -658.0
+offset_top = -64.0
+offset_right = 658.0
+offset_bottom = 64.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 25
+theme_override_constants/v_separation = 25
+columns = 10
+
+[node name="Level1" type="TextureButton" parent="ColorRect/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("1_v4h6b")
+
+[node name="Level2" type="TextureButton" parent="ColorRect/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("1_v4h6b")
+
+[node name="Level3" type="TextureButton" parent="ColorRect/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("1_v4h6b")
+
+[node name="Level4" type="TextureButton" parent="ColorRect/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("1_v4h6b")
+
+[node name="Level5" type="TextureButton" parent="ColorRect/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("1_v4h6b")
+
+[node name="Level6" type="TextureButton" parent="ColorRect/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("1_v4h6b")
+
+[node name="Level7" type="TextureButton" parent="ColorRect/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("1_v4h6b")
+
+[node name="Level8" type="TextureButton" parent="ColorRect/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("1_v4h6b")
+
+[node name="Level9" type="TextureButton" parent="ColorRect/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("1_v4h6b")
+
+[node name="Level10" type="TextureButton" parent="ColorRect/GridContainer"]
+layout_mode = 2
+texture_normal = ExtResource("1_v4h6b")
