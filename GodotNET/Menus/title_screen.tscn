@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://chky2ebfw47kk"]
 
-[ext_resource type="Texture2D" uid="uid://ba7ef2bfhdh4n" path="res://Menus/Logo_dark.png" id="1_lg1oj"]
-[ext_resource type="Texture2D" uid="uid://cujvnwibjtdkb" path="res://Menus/Play_dark.png" id="2_0dh11"]
-[ext_resource type="Texture2D" uid="uid://blch68iooxw0g" path="res://Menus/Play_light.png" id="3_0x0v7"]
-[ext_resource type="Texture2D" uid="uid://tvgcxvtd6roq" path="res://Menus/Level_dark.png" id="4_rtvjn"]
-[ext_resource type="Texture2D" uid="uid://2130x35rj68i" path="res://Menus/Level_light.png" id="5_pk13i"]
+[ext_resource type="Texture2D" uid="uid://ba7ef2bfhdh4n" path="res://Menus/Textures/Logo_dark.png" id="1_b7yur"]
+[ext_resource type="Texture2D" uid="uid://cujvnwibjtdkb" path="res://Menus/Textures/Play_dark.png" id="2_ky7hd"]
+[ext_resource type="Texture2D" uid="uid://blch68iooxw0g" path="res://Menus/Textures/Play_light.png" id="3_naymu"]
+[ext_resource type="Texture2D" uid="uid://tvgcxvtd6roq" path="res://Menus/Textures/Level_dark.png" id="4_27poh"]
+[ext_resource type="Texture2D" uid="uid://2130x35rj68i" path="res://Menus/Textures/Level_light.png" id="5_24vfy"]
 
 [node name="TitleScreen" type="Control"]
 layout_mode = 3
@@ -40,7 +40,7 @@ grow_vertical = 2
 
 [node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
 layout_mode = 2
-texture = ExtResource("1_lg1oj")
+texture = ExtResource("1_b7yur")
 
 [node name="ColorRect" type="ColorRect" parent="VBoxContainer/TextureRect"]
 layout_mode = 1
@@ -57,12 +57,12 @@ grow_vertical = 0
 
 [node name="TextureButton" type="TextureButton" parent="VBoxContainer"]
 layout_mode = 2
-texture_normal = ExtResource("2_0dh11")
-texture_pressed = ExtResource("3_0x0v7")
+texture_normal = ExtResource("2_ky7hd")
+texture_pressed = ExtResource("3_naymu")
 stretch_mode = 0
 
 [node name="TextureButton2" type="TextureButton" parent="VBoxContainer"]
 layout_mode = 2
-texture_normal = ExtResource("4_rtvjn")
-texture_pressed = ExtResource("5_pk13i")
+texture_normal = ExtResource("4_27poh")
+texture_pressed = ExtResource("5_24vfy")
 stretch_mode = 0
