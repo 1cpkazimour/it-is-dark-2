@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://chky2ebfw47kk"]
+[gd_scene load_steps=6 format=3 uid="uid://chky2ebfw47kk"]
 
 [ext_resource type="Texture2D" uid="uid://ba7ef2bfhdh4n" path="res://Menus/Textures/Logo_dark.png" id="1_b7yur"]
 [ext_resource type="Texture2D" uid="uid://cujvnwibjtdkb" path="res://Menus/Textures/Play_dark.png" id="2_ky7hd"]
@@ -13,7 +13,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_dgbd7")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1
@@ -67,6 +66,3 @@ layout_mode = 2
 texture_normal = ExtResource("4_27poh")
 texture_pressed = ExtResource("5_24vfy")
 stretch_mode = 0
-
-[connection signal="pressed" from="VBoxContainer/TextureButton" to="." method="_on_play_pressed"]
-[connection signal="pressed" from="VBoxContainer/TextureButton2" to="." method="_on_levels_pressed"]
