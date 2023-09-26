@@ -1,5 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://de7dukcra3abj"]
+[gd_scene load_steps=5 format=3 uid="uid://de7dukcra3abj"]
 
+[ext_resource type="Script" path="res://Levels/Level.cs" id="1_aprqh"]
 [ext_resource type="Texture2D" uid="uid://cu5851y8tefqc" path="res://icon.svg" id="1_xd6hn"]
 [ext_resource type="PackedScene" uid="uid://dsdepo8pr5pou" path="res://Player/Player.tscn" id="2_d0b54"]
 
@@ -7,6 +8,7 @@
 size = Vector2(1033.5, 40)
 
 [node name="TestLevel" type="Node2D"]
+script = ExtResource("1_aprqh")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(-1714, 74)

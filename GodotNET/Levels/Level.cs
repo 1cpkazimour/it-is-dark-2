@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public partial class Levels : Control
+public partial class Level : Node2D
 {
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
@@ -15,10 +15,5 @@ public partial class Levels : Control
 		{
 			GetTree().ChangeSceneToFile("res://Menus/title_screen.tscn");
 		}
-	}
-
-	private void sig_levelSelect(int level)
-	{
-		GetTree().ChangeSceneToFile("res://Levels/level" + level + ".tscn");
 	}
 }
