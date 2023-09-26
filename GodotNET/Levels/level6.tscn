@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://b7c0rpgy058dl"]
+
+[ext_resource type="Texture2D" uid="uid://cu5851y8tefqc" path="res://icon.svg" id="1_1i00r"]
+[ext_resource type="PackedScene" uid="uid://dsdepo8pr5pou" path="res://Player/Player.tscn" id="2_6ddgu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d31ar"]
+size = Vector2(1033.5, 40)
+
+[node name="TestLevel" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(-1714, 74)
+scale = Vector2(10, 1)
+
+[node name="Icon" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(579, 606)
+scale = Vector2(8.07812, 0.328125)
+texture = ExtResource("1_1i00r")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(580.25, 606)
+shape = SubResource("RectangleShape2D_d31ar")
+
+[node name="Player" parent="." instance=ExtResource("2_6ddgu")]
+position = Vector2(655, -92)

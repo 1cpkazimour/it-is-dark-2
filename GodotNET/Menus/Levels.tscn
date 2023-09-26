@@ -109,3 +109,12 @@ texture_normal = ExtResource("10_yki7e")
 texture_pressed = ExtResource("20_cgwsv")
 
 [connection signal="pressed" from="GridContainer/Level1" to="." method="sig_levelSelect" binds= [1]]
+[connection signal="pressed" from="GridContainer/Level2" to="." method="sig_levelSelect" binds= [2]]
+[connection signal="pressed" from="GridContainer/Level3" to="." method="sig_levelSelect" binds= [3]]
+[connection signal="pressed" from="GridContainer/Level4" to="." method="sig_levelSelect" binds= [4]]
+[connection signal="pressed" from="GridContainer/Level5" to="." method="sig_levelSelect" binds= [5]]
+[connection signal="pressed" from="GridContainer/Level6" to="." method="sig_levelSelect" binds= [6]]
+[connection signal="pressed" from="GridContainer/Level7" to="." method="sig_levelSelect" binds= [7]]
+[connection signal="pressed" from="GridContainer/Level8" to="." method="sig_levelSelect" binds= [8]]
+[connection signal="pressed" from="GridContainer/Level9" to="." method="sig_levelSelect" binds= [9]]
+[connection signal="pressed" from="GridContainer/Level10" to="." method="sig_levelSelect" binds= [10]]
