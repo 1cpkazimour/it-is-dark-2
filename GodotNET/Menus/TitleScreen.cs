@@ -21,7 +21,7 @@ public partial class TitleScreen : Control
 
 	private void _on_levels_pressed()
 	{
-		// Replace with function body.
+		GetTree().ChangeSceneToFile("Menus/Levels.tscn");
 	}
 
 }
