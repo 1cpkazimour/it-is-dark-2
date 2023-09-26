@@ -1,5 +1,6 @@
-[gd_scene load_steps=21 format=3 uid="uid://cja0wq1y6h7xv"]
+[gd_scene load_steps=22 format=3 uid="uid://cja0wq1y6h7xv"]
 
+[ext_resource type="Script" path="res://Menus/Levels.cs" id="1_eshc1"]
 [ext_resource type="Texture2D" uid="uid://oslqby0ybpgu" path="res://Menus/Textures/Untitled_Artwork-1 2.png" id="1_pqsj2"]
 [ext_resource type="Texture2D" uid="uid://bhnredh67j0mf" path="res://Menus/Textures/Untitled_Artwork-3.png" id="2_8081a"]
 [ext_resource type="Texture2D" uid="uid://dbgdn0w5c7jfs" path="res://Menus/Textures/Untitled_Artwork-2.png" id="2_jnoyw"]
@@ -28,6 +29,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_eshc1")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1
@@ -105,3 +107,5 @@ texture_pressed = ExtResource("18_embxi")
 layout_mode = 2
 texture_normal = ExtResource("10_yki7e")
 texture_pressed = ExtResource("20_cgwsv")
+
+[connection signal="pressed" from="GridContainer/Level1" to="." method="sig_levelSelect" binds= [1]]
