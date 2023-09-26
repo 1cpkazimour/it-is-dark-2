@@ -11,7 +11,7 @@ public partial class TitleScreen : Control
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
-		if(Input.IsActionPressed("esc"))
+		if(Input.IsActionJustPressed("esc"))
 		{
 			GetTree().Quit();
 		}
