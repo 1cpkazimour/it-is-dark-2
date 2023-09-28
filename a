@@ -1,0 +1,191 @@
+[33mcommit 0c97fd6941264bd7d581d0a97e413d13a3086385[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: rorokapur <kapurkrohan@gmail.com>
+Date:   Tue Sep 26 13:17:10 2023 -0700
+
+    fixed esc key functionality
+
+[33mcommit e128b5545795238074886936e656c5c665086e8a[m
+Author: rorokapur <kapurkrohan@gmail.com>
+Date:   Tue Sep 26 13:13:15 2023 -0700
+
+    added escape key functionality in every scene
+
+[33mcommit 0773ed3587355089a26044b86e597f0825c6662a[m
+Author: rorokapur <kapurkrohan@gmail.com>
+Date:   Tue Sep 26 12:57:38 2023 -0700
+
+    added 10 empty levels and connected them to level selector
+
+[33mcommit e3ad0c4227ea5d51d536f783af6c4f5fb55df598[m
+Author: rorokapur <kapurkrohan@gmail.com>
+Date:   Tue Sep 26 12:49:52 2023 -0700
+
+    added scene changing to level selector
+
+[33mcommit fe7c72a66059ed1569f2ec71c8e15e9f83785bd7[m
+Merge: b320596 b1613fc
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Tue Sep 26 12:45:10 2023 -0700
+
+    Merge titlescreen in
+
+[33mcommit b1613fcd56e3891da74e9c2d9c3269ce0c4fd523[m
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Tue Sep 26 12:43:54 2023 -0700
+
+    Menu Working
+
+[33mcommit 3775a265b1bd83b099179cc3bda36695c3ff24c4[m
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Tue Sep 26 12:41:51 2023 -0700
+
+    j
+
+[33mcommit e4f54eda25f5dd48fe05d96c40e1f66d9ee1c7a0[m
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Tue Sep 26 12:39:24 2023 -0700
+
+    fixed title_screen
+
+[33mcommit e8e7de8208889ce81819ed82138f38f755a406fb[m
+Merge: 5ea3fd7 f014291
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Tue Sep 26 12:31:11 2023 -0700
+
+    changes
+
+[33mcommit b32059619d3c1bc3c6b472ace10a5b2ef12718f3[m
+Author: rorokapur <kapurkrohan@gmail.com>
+Date:   Tue Sep 26 11:08:58 2023 -0700
+
+    added level selector screen buttons
+
+[33mcommit 5ea3fd715a21cbbf0a60ca594decbb6d51eb931e[m
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Mon Sep 25 13:42:28 2023 -0700
+
+    Added titlescreen button
+
+[33mcommit f014291c6ae2d113996917f79bd565924cc9ebb5[m
+Merge: 7fb82a1 fd9481a
+Author: rorokapur <kapurkrohan@gmail.com>
+Date:   Mon Sep 25 13:40:04 2023 -0700
+
+    Merge branch 'main' of github.com:1cpkazimour/it-is-dark-2
+
+[33mcommit 7fb82a17666b754834e41c223c98ae68746242a5[m
+Author: rorokapur <kapurkrohan@gmail.com>
+Date:   Mon Sep 25 13:39:59 2023 -0700
+
+    added level select scene
+
+[33mcommit fd9481a0bf158b3d328e4492e3689e1ff1a29f9b[m
+Author: SereneMonk <95724771+SereneMonk@users.noreply.github.com>
+Date:   Mon Sep 25 13:39:52 2023 -0700
+
+    level button textures
+
+[33mcommit 9ff21797d372fcd1866cf7b4d1f39c5a0450b0d6[m
+Author: rorokapur <kapurkrohan@gmail.com>
+Date:   Mon Sep 25 13:37:01 2023 -0700
+
+    added level select screen
+
+[33mcommit caf58e1fdc35992e0c6ae6d7bf0331bb1e03c16f[m
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Mon Sep 25 13:15:39 2023 -0700
+
+    added main node
+
+[33mcommit 4536c10b27cceffab902510ee6bf60eb7bcd4cb0[m
+Author: SereneMonk <95724771+SereneMonk@users.noreply.github.com>
+Date:   Mon Sep 25 13:03:43 2023 -0700
+
+    menu screen
+
+[33mcommit 4783bf32206c798ba8e04448690e1c58b497d858[m
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Fri Sep 22 13:38:34 2023 -0700
+
+    made movement code better
+
+[33mcommit 088f0e9b0f919b0a67ddea74bb54654ab5d4d406[m
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Thu Sep 21 12:57:59 2023 -0700
+
+    Made camera better
+
+[33mcommit 4b644c3f1d49f5284e4cd2e09581749341918fad[m
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Thu Sep 21 12:52:39 2023 -0700
+
+    Fixed camera
+
+[33mcommit 63b4beec8374a380d08e569a25401884d7f7553a[m
+Merge: 9ab9239 42c1c37
+Author: SereneMonk <95724771+SereneMonk@users.noreply.github.com>
+Date:   Thu Sep 21 12:47:16 2023 -0700
+
+    Merge remote-tracking branch 'refs/remotes/origin/main'
+
+[33mcommit 9ab92398326154673d2f1ea5cc7d9f5a6f9cfc59[m
+Author: SereneMonk <95724771+SereneMonk@users.noreply.github.com>
+Date:   Thu Sep 21 12:39:29 2023 -0700
+
+    changed stretch mode for resizing and made default resolution 1080p
+
+[33mcommit 42c1c3775dcb372bf8a96d9e7eafc7886fbff1f7[m
+Author: SereneMonk <95724771+SereneMonk@users.noreply.github.com>
+Date:   Thu Sep 21 12:38:11 2023 -0700
+
+    Update .gitignore
+
+[33mcommit 1fd79e4380d7f18d5494c9d8de628cfba1a743ea[m
+Author: SereneMonk <95724771+SereneMonk@users.noreply.github.com>
+Date:   Thu Sep 21 07:30:32 2023 -0700
+
+    Godot .gitignore
+    
+    Uses godot template and ignores MacOS .DS_Store files
+
+[33mcommit e8292de39404582150444ca010a4f1b47085ce53[m
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Wed Sep 20 12:54:26 2023 -0700
+
+    Fixed .gitignore
+
+[33mcommit 47125a5922291682364e0f36a193a417bfc95deb[m
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Wed Sep 20 12:53:57 2023 -0700
+
+    added gitignore
+
+[33mcommit 2e0a1d598896cbd11be7d90d7a9b2446358a9a45[m
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Wed Sep 20 12:51:00 2023 -0700
+
+    Added test level
+
+[33mcommit 62d7fc6393100c5299232dd4cae828ce7b744cd5[m
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Wed Sep 20 12:47:26 2023 -0700
+
+    Added player controller
+
+[33mcommit fc87c5dfc2601aa7f9f7c44c7194667bde51a676[m
+Author: Cameron Kazimour <1cpkazimour@noreply.github.com>
+Date:   Wed Sep 20 12:44:09 2023 -0700
+
+    Added player
+
+[33mcommit 473b6606d9d6dfb3d23c7eba767bc18b2c9d5430[m
+Author: SereneMonk <95724771+SereneMonk@users.noreply.github.com>
+Date:   Tue Sep 19 14:53:08 2023 -0700
+
+    initial godot project 4.11 NET version
+
+[33mcommit 374069c01581ce60bcc94b3c216ed8e73487879e[m
+Author: rorokapur <kapurkrohan@gmail.com>
+Date:   Tue Sep 19 13:04:41 2023 -0700
+
+    first commit

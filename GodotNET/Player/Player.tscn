@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://dsdepo8pr5pou"]
+[gd_scene load_steps=5 format=3 uid="uid://dsdepo8pr5pou"]
 
 [ext_resource type="Script" path="res://Player/Player.cs" id="1_htisg"]
 [ext_resource type="Texture2D" uid="uid://cu5851y8tefqc" path="res://icon.svg" id="1_xw0j4"]
+[ext_resource type="PackedScene" uid="uid://b8r62dc0f1exk" path="res://HUD/hud.tscn" id="3_ahul1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_y1tlm"]
 size = Vector2(128, 128)
@@ -16,3 +17,5 @@ texture = ExtResource("1_xw0j4")
 shape = SubResource("RectangleShape2D_y1tlm")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="HUD" parent="Camera2D" instance=ExtResource("3_ahul1")]
