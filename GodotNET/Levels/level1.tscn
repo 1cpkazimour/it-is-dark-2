@@ -1,27 +1,17 @@
-[gd_scene load_steps=5 format=3 uid="uid://cqing27g5p61c"]
+[gd_scene load_steps=4 format=3 uid="uid://cqing27g5p61c"]
 
-[ext_resource type="Texture2D" uid="uid://cu5851y8tefqc" path="res://icon.svg" id="1_aq3as"]
 [ext_resource type="Script" path="res://Levels/Level.cs" id="1_j1nes"]
 [ext_resource type="PackedScene" uid="uid://dsdepo8pr5pou" path="res://Player/Player.tscn" id="2_rtr25"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_d31ar"]
-size = Vector2(1033.5, 40)
+[sub_resource type="TileSet" id="TileSet_h272k"]
+tile_size = Vector2i(128, 128)
 
 [node name="TestLevel" type="Node2D"]
 script = ExtResource("1_j1nes")
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2(-1714, 74)
-scale = Vector2(10, 1)
-
-[node name="Icon" type="Sprite2D" parent="StaticBody2D"]
-position = Vector2(579, 606)
-scale = Vector2(8.07812, 0.328125)
-texture = ExtResource("1_aq3as")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(580.25, 606)
-shape = SubResource("RectangleShape2D_d31ar")
-
 [node name="Player" parent="." instance=ExtResource("2_rtr25")]
-position = Vector2(655, -92)
+position = Vector2(0, 0)
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_h272k")
+format = 2

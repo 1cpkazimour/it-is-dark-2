@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://b8r62dc0f1exk" path="res://HUD/hud.tscn" id="3_ahul1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_y1tlm"]
-size = Vector2(128, 128)
+size = Vector2(122, 122)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_htisg")
